@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test">
+    <classes>
+      <class name="com.lc.testngTaoJian.testNG01"/>
+      <class name="com.lc.testngTaoJian.testNG02"/>
+      <class name="com.lc.testngTaoJian.testNG03"/>
+      	<methods>
+      		<include name="testNG_*"/>
+      		<exclude name="aatestNG_04"/>
+      	</methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18" started-at="2020-12-06T12:56:16Z" finished-at="2020-12-06T12:56:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18" started-at="2020-12-06T12:56:16Z" finished-at="2020-12-06T12:56:16Z">
+      <class name="com.lc.testngTaoJian.testNG01">
+        <test-method status="PASS" signature="testNG_01()[pri:0, instance:com.lc.testngTaoJian.testNG01@47f37ef1]" name="testNG_01" duration-ms="6" started-at="2020-12-06T20:56:16Z" finished-at="2020-12-06T20:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNG_01 -->
+      </class> <!-- com.lc.testngTaoJian.testNG01 -->
+      <class name="com.lc.testngTaoJian.testNG03">
+        <test-method status="PASS" signature="aatestNG_04()[pri:0, instance:com.lc.testngTaoJian.testNG03@4563e9ab]" name="aatestNG_04" duration-ms="0" started-at="2020-12-06T20:56:16Z" finished-at="2020-12-06T20:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aatestNG_04 -->
+        <test-method status="PASS" signature="testNG_03()[pri:0, instance:com.lc.testngTaoJian.testNG03@4563e9ab]" name="testNG_03" duration-ms="0" started-at="2020-12-06T20:56:16Z" finished-at="2020-12-06T20:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNG_03 -->
+      </class> <!-- com.lc.testngTaoJian.testNG03 -->
+      <class name="com.lc.testngTaoJian.testNG02">
+        <test-method status="PASS" signature="testNG_02()[pri:0, instance:com.lc.testngTaoJian.testNG02@19bb089b]" name="testNG_02" duration-ms="0" started-at="2020-12-06T20:56:16Z" finished-at="2020-12-06T20:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNG_02 -->
+      </class> <!-- com.lc.testngTaoJian.testNG02 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
