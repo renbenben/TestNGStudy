@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
-  <test name="Test(failed)" parallel="none">
+  <parameter name="hostname" value="arkonis.example.com"/>
+  <parameter name="xml-file" value="accounts.xml"/>
+  <parameter name="testKey" value="我是test标签里面的参数"/>
+  <test name="test01(failed)" parallel="none">
+    <parameter name="testKey" value="我是test标签里面的参数"/>
     <classes>
-      <class name="com.lc.testngTaoJian.testNG02">
+      <class name="com.lc.testChuanCan.testNG6">
         <methods>
-          <include name="testNG_02"/>
+          <include name="textNG06_03"/>
         </methods>
-      </class> <!-- com.lc.testngTaoJian.testNG02 -->
+      </class> <!-- com.lc.testChuanCan.testNG6 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- test01(failed) -->
 </suite> <!-- Failed suite [Suite] -->

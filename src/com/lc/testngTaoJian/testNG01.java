@@ -1,11 +1,10 @@
 package com.lc.testngTaoJian;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.Test;
 
 public class testNG01 {
   @Test
   public void testNG_01() {
-	  System.out.println("ÎÒÊÇtestNG01ÀàµÄtestNG_01·½·¨");
+	  System.out.println("æˆ‘æ˜¯testNG04ç±»çš„testNG01â€”â€”001æ–¹æ³•");
   }
 }

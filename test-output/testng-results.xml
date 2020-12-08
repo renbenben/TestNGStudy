@@ -1,33 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18" started-at="2020-12-06T12:56:16Z" finished-at="2020-12-06T12:56:16Z">
+  <suite name="Default suite" duration-ms="25" started-at="2020-12-08T06:03:39Z" finished-at="2020-12-08T06:03:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18" started-at="2020-12-06T12:56:16Z" finished-at="2020-12-06T12:56:16Z">
-      <class name="com.lc.testngTaoJian.testNG01">
-        <test-method status="PASS" signature="testNG_01()[pri:0, instance:com.lc.testngTaoJian.testNG01@47f37ef1]" name="testNG_01" duration-ms="6" started-at="2020-12-06T20:56:16Z" finished-at="2020-12-06T20:56:16Z">
+    <test name="Default test" duration-ms="25" started-at="2020-12-08T06:03:39Z" finished-at="2020-12-08T06:03:39Z">
+      <class name="com.lc.testChuanCan.testNG07">
+        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="16" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNG_01 -->
-      </class> <!-- com.lc.testngTaoJian.testNG01 -->
-      <class name="com.lc.testngTaoJian.testNG03">
-        <test-method status="PASS" signature="aatestNG_04()[pri:0, instance:com.lc.testngTaoJian.testNG03@4563e9ab]" name="aatestNG_04" duration-ms="0" started-at="2020-12-06T20:56:16Z" finished-at="2020-12-06T20:56:16Z">
+        </test-method> <!-- testNG07_01 -->
+        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="0" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aatestNG_04 -->
-        <test-method status="PASS" signature="testNG_03()[pri:0, instance:com.lc.testngTaoJian.testNG03@4563e9ab]" name="testNG_03" duration-ms="0" started-at="2020-12-06T20:56:16Z" finished-at="2020-12-06T20:56:16Z">
+        </test-method> <!-- testNG07_01 -->
+        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="0" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNG_03 -->
-      </class> <!-- com.lc.testngTaoJian.testNG03 -->
-      <class name="com.lc.testngTaoJian.testNG02">
-        <test-method status="PASS" signature="testNG_02()[pri:0, instance:com.lc.testngTaoJian.testNG02@19bb089b]" name="testNG_02" duration-ms="0" started-at="2020-12-06T20:56:16Z" finished-at="2020-12-06T20:56:16Z">
+        </test-method> <!-- testNG07_01 -->
+        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="0" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNG_02 -->
-      </class> <!-- com.lc.testngTaoJian.testNG02 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testNG07_01 -->
+        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="0" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNG07_01 -->
+      </class> <!-- com.lc.testChuanCan.testNG07 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

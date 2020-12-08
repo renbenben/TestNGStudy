@@ -8,7 +8,7 @@
       <class name="com.lc.testngTaoJian.testNG03"/>
       	<methods>
       		<include name="testNG_*"/>
-      		<exclude name="aatestNG_04"/>
+      		<exclude name="aatestNG_041"/>
       	</methods>
     </classes>
   </test> <!-- Test -->
