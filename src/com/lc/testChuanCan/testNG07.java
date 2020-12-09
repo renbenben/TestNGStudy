@@ -1,7 +1,13 @@
 package com.lc.testChuanCan;
 
+
+
+import java.util.HashMap;
+import java.util.Map;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 
 public class testNG07 {
  
@@ -14,6 +20,7 @@ public class testNG07 {
 	public Object[][] rangeData(){
 		int lower = 5 ;
 		int upper = 10 ;
+		
 		return new Object[][] {
 			{lower-1,lower,upper,false},
 			{lower,lower,upper,true},
@@ -22,5 +29,13 @@ public class testNG07 {
 			{upper+1,lower,upper,false},
 			
 		};
+	}
+	
+	@Test(dataProvider = "tstNG08Data1",dataProviderClass = testNG08.class)
+	public void testNG07_02(String name,String sex,int age) {
+		System.err.println("---------------------------------------------------------");
+		System.out.println("我是tstNG07类的testNG07——02方法：");
+		System.out.println("name:"+name+";sex:"+sex+";age:"+age);
+		
 	}
 }

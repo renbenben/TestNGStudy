@@ -1,143 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25" started-at="2020-12-08T06:03:39Z" finished-at="2020-12-08T06:03:39Z">
+  <suite name="Suite" duration-ms="40" started-at="2020-12-09T08:19:58Z" finished-at="2020-12-09T08:19:58Z">
     <groups>
+      <group name="unit-test">
+        <method signature="testNG11.random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" class="com.lc.testChuanCan02.testNG11"/>
+      </group> <!-- unit-test -->
+      <group name="functional-test">
+        <method signature="testNG11.random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" class="com.lc.testChuanCan02.testNG11"/>
+      </group> <!-- functional-test -->
     </groups>
-    <test name="Default test" duration-ms="25" started-at="2020-12-08T06:03:39Z" finished-at="2020-12-08T06:03:39Z">
-      <class name="com.lc.testChuanCan.testNG07">
-        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="16" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+    <test name="Test" duration-ms="40" started-at="2020-12-09T08:19:58Z" finished-at="2020-12-09T08:19:58Z">
+      <class name="com.lc.testChuanCan02.testNG11">
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="0" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[false]]>
+                <![CDATA[1007879915]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNG07_01 -->
-        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="0" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="0" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
+                <![CDATA[1948025974]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNG07_01 -->
-        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="0" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="15" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
+                <![CDATA[-2140217595]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNG07_01 -->
-        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="0" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="2" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[false]]>
+                <![CDATA[-1465229225]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNG07_01 -->
-        <test-method status="PASS" signature="testNG07_01(int, int, int, boolean)[pri:0, instance:com.lc.testChuanCan.testNG07@2a18f23c]" name="testNG07_01" duration-ms="0" started-at="2020-12-08T14:03:39Z" data-provider="reange-provider" finished-at="2020-12-08T14:03:39Z">
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="0" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[true]]>
+                <![CDATA[-679801722]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNG07_01 -->
-      </class> <!-- com.lc.testChuanCan.testNG07 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1685447957]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[765180870]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[276008177]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1358967924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- random -->
+        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1326667666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- random -->
+      </class> <!-- com.lc.testChuanCan02.testNG11 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
