@@ -1,129 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="40" started-at="2020-12-09T08:19:58Z" finished-at="2020-12-09T08:19:58Z">
+  <suite name="Default suite" duration-ms="17" started-at="2020-12-14T13:59:56Z" finished-at="2020-12-14T13:59:57Z">
     <groups>
-      <group name="unit-test">
-        <method signature="testNG11.random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" class="com.lc.testChuanCan02.testNG11"/>
-      </group> <!-- unit-test -->
-      <group name="functional-test">
-        <method signature="testNG11.random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" class="com.lc.testChuanCan02.testNG11"/>
-      </group> <!-- functional-test -->
+      <group name="database">
+        <method signature="TestNG15.runSelenium()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium" class="com.lc.tesgFenZu.TestNG15"/>
+        <method signature="TestNG15.runSelenium1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium1" class="com.lc.tesgFenZu.TestNG15"/>
+        <method signature="TestNG15.testConnectOracle()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="testConnectOracle" class="com.lc.tesgFenZu.TestNG15"/>
+        <method signature="TestNG15.testConnectOracle1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="testConnectOracle1" class="com.lc.tesgFenZu.TestNG15"/>
+      </group> <!-- database -->
+      <group name="selenium-test">
+        <method signature="TestNG15.runSelenium()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium" class="com.lc.tesgFenZu.TestNG15"/>
+        <method signature="TestNG15.runSelenium1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium1" class="com.lc.tesgFenZu.TestNG15"/>
+      </group> <!-- selenium-test -->
     </groups>
-    <test name="Test" duration-ms="40" started-at="2020-12-09T08:19:58Z" finished-at="2020-12-09T08:19:58Z">
-      <class name="com.lc.testChuanCan02.testNG11">
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="0" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1007879915]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="17" started-at="2020-12-14T13:59:56Z" finished-at="2020-12-14T13:59:57Z">
+      <class name="com.lc.tesgFenZu.TestNG15">
+        <test-method status="PASS" signature="setupDB()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="setupDB" is-config="true" duration-ms="3" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="0" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1948025974]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setupDB -->
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium" duration-ms="3" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="15" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-2140217595]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium1" duration-ms="0" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="2" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-1465229225]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- runSelenium1 -->
+        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="testConnectOracle" duration-ms="0" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="0" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-679801722]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testConnectOracle -->
+        <test-method status="PASS" signature="testConnectOracle1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="testConnectOracle1" duration-ms="0" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-1685447957]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testConnectOracle1 -->
+        <test-method status="PASS" signature="cleanDB()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="cleanDB" is-config="true" duration-ms="1" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[765180870]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[276008177]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-1358967924]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- random -->
-        <test-method status="PASS" signature="random(java.lang.Integer)[pri:0, instance:com.lc.testChuanCan02.testNG11@4ec6a292]" name="random" duration-ms="1" started-at="2020-12-09T16:19:58Z" data-provider="randomIntegers" finished-at="2020-12-09T16:19:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1326667666]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- random -->
-      </class> <!-- com.lc.testChuanCan02.testNG11 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- cleanDB -->
+      </class> <!-- com.lc.tesgFenZu.TestNG15 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

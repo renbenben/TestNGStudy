@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.lc.testChuanCan02.testNG11">
+      <class name="com.lc.testngChaoShi.testNG13">
         <methods>
-          <include name="random" invocation-numbers="0 1"/>
+          <include name="testNG13_01"/>
         </methods>
-      </class> <!-- com.lc.testChuanCan02.testNG11 -->
+      </class> <!-- com.lc.testngChaoShi.testNG13 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
