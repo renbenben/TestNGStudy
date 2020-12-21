@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Test" preserve-order="1">
+  	<groups>
+  		<run>
+  			<include name="functest"/>
+  		</run>
+  	</groups>
+  	
+  	<classes>
+  		<class name="com.lc.testngFenZu.common"></class>
+  		<class name="com.lc.testngFenZu.functionA"></class>
+  		<class name="com.lc.testngFenZu.functionB"></class>
+  		 
+  	</classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.lc.testngChaoShi.testNG13">
+      <class name="com.lc.testngYiLai.TestNG17">
         <methods>
-          <include name="testNG13_01"/>
+          <include name="deployServer4"/>
+          <include name="deployServer3"/>
+          <include name="deployServer2"/>
+          <include name="deployServer1"/>
         </methods>
-      </class> <!-- com.lc.testngChaoShi.testNG13 -->
+      </class> <!-- com.lc.testngYiLai.TestNG17 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

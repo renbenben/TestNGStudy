@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17" started-at="2020-12-14T13:59:56Z" finished-at="2020-12-14T13:59:57Z">
+  <suite name="Default suite" duration-ms="16" started-at="2020-12-21T14:57:34Z" finished-at="2020-12-21T14:57:34Z">
     <groups>
-      <group name="database">
-        <method signature="TestNG15.runSelenium()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium" class="com.lc.tesgFenZu.TestNG15"/>
-        <method signature="TestNG15.runSelenium1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium1" class="com.lc.tesgFenZu.TestNG15"/>
-        <method signature="TestNG15.testConnectOracle()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="testConnectOracle" class="com.lc.tesgFenZu.TestNG15"/>
-        <method signature="TestNG15.testConnectOracle1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="testConnectOracle1" class="com.lc.tesgFenZu.TestNG15"/>
-      </group> <!-- database -->
-      <group name="selenium-test">
-        <method signature="TestNG15.runSelenium()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium" class="com.lc.tesgFenZu.TestNG15"/>
-        <method signature="TestNG15.runSelenium1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium1" class="com.lc.tesgFenZu.TestNG15"/>
-      </group> <!-- selenium-test -->
     </groups>
-    <test name="Default test" duration-ms="17" started-at="2020-12-14T13:59:56Z" finished-at="2020-12-14T13:59:57Z">
-      <class name="com.lc.tesgFenZu.TestNG15">
-        <test-method status="PASS" signature="setupDB()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="setupDB" is-config="true" duration-ms="3" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
+    <test name="Default test" duration-ms="16" started-at="2020-12-21T14:57:34Z" finished-at="2020-12-21T14:57:34Z">
+      <class name="com.lc.testngFenZu.TestNG20">
+        <test-method status="PASS" signature="method01()[pri:1, instance:com.lc.testngFenZu.TestNG20@28f67ac7]" name="method01" duration-ms="6" started-at="2020-12-21T22:57:34Z" finished-at="2020-12-21T22:57:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupDB -->
-        <test-method status="PASS" signature="runSelenium()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium" duration-ms="3" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
+        </test-method> <!-- method01 -->
+        <test-method status="PASS" signature="method03()[pri:2, instance:com.lc.testngFenZu.TestNG20@28f67ac7]" name="method03" duration-ms="0" started-at="2020-12-21T22:57:34Z" finished-at="2020-12-21T22:57:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runSelenium -->
-        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="runSelenium1" duration-ms="0" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
+        </test-method> <!-- method03 -->
+        <test-method status="PASS" signature="method02()[pri:3, instance:com.lc.testngFenZu.TestNG20@28f67ac7]" name="method02" duration-ms="0" started-at="2020-12-21T22:57:34Z" finished-at="2020-12-21T22:57:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runSelenium1 -->
-        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="testConnectOracle" duration-ms="0" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testConnectOracle -->
-        <test-method status="PASS" signature="testConnectOracle1()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="testConnectOracle1" duration-ms="0" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testConnectOracle1 -->
-        <test-method status="PASS" signature="cleanDB()[pri:0, instance:com.lc.tesgFenZu.TestNG15@47f37ef1]" name="cleanDB" is-config="true" duration-ms="1" started-at="2020-12-14T21:59:57Z" finished-at="2020-12-14T21:59:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanDB -->
-      </class> <!-- com.lc.tesgFenZu.TestNG15 -->
+        </test-method> <!-- method02 -->
+      </class> <!-- com.lc.testngFenZu.TestNG20 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
